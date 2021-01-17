@@ -426,6 +426,7 @@ footer {
     justify-content: space-around;
     padding: 0% 8%; }
     footer ul li i {
+      color: black;
       padding-bottom: 30px; }
 
 @media screen and (min-width: 1200px) {
