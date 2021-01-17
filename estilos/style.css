@@ -163,10 +163,18 @@ main .two-section .first-contenedor {
     font-size: 40px;
     color: white;
     margin-bottom: 10%; }
+  main .two-section .first-contenedor iframe {
+    width: 100%;
+    height: 240px;
+    border: 0;
+    line-height: 0;
+    background-color: transparent; }
 main .three-section {
   display: flex;
   flex-flow: row wrap;
   justify-content: center; }
+  main .three-section h2 {
+    display: none; }
   main .three-section img {
     width: 360px;
     height: auto;
@@ -417,9 +425,7 @@ footer {
     list-style: none;
     justify-content: space-around;
     padding: 0% 8%; }
-    footer ul li img {
-      width: 16px;
-      height: auto;
+    footer ul li i {
       padding-bottom: 30px; }
 
 @media screen and (min-width: 1200px) {
@@ -435,7 +441,8 @@ footer {
     footer ul {
       justify-content: unset;
       padding-top: 4%; }
-    footer li img {
-      margin-left: 35px; } }
+    footer li i {
+      margin-left: 35px;
+      color: black; } }
 
 /*# sourceMappingURL=style.css.map */

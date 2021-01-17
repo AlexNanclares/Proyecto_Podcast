@@ -13,9 +13,7 @@ footer{
         justify-content: space-around;
         padding: 0% 8%;
         li{
-            img{
-                width: 16px;
-                height: auto;
+            i{
                 padding-bottom: 30px;
             }
         }
@@ -40,9 +38,9 @@ footer{
             
         }
         li{
-            img{
+            i{
                 margin-left: 35px;
-                
+                color: black;
             }
         }
         
